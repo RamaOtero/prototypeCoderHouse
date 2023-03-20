@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .greetingDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./assets/greetingsFondo.jpg);
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-size: cover;
+    height: 500px;
+}
+
+.greeting {
+    color: white;
+    font-size: 120px;
+    font-family: 'Anton', sans-serif;
+}
+
+.greeting:hover {
+    color: black;
+    cursor: default;
+    transition: 0.5s;
+}
+
+  

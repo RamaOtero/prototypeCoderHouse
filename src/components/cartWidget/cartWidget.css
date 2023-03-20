@@ -1,0 +1,11 @@
+
+.cartDiv {
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+}
+
+.cart {
+    height: 30px;
+    margin-right: 5px;
+}
