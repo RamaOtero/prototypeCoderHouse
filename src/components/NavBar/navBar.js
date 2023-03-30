@@ -1,9 +1,10 @@
 import CartWidget from "../cartWidget/cartWidget"
-import Logo from './asset/logo.png'
+import Logo from './assets/Logo2.png'
+import Button from './Button/Button'
 import './navBar.css'
 
-const navBar = () => {
-    return (
+const navBar = () => { 
+  return (
     <nav>
       <div className="navBack">
         <div className="logoDiv">
@@ -12,16 +13,15 @@ const navBar = () => {
           <CartWidget />
         </div>
         <div className="bttnDiv">
-          <button className="bttn">INICIO</button>
-          <button className="bttn">TIENDA</button>
-          <button className="bttn">NEW ARRIVAL</button>
-          <button className="bttn">NOSOTROS</button>
-          <button className="bttn">CONTACTO</button>
+          <Button label='Home' />
+          <Button label='New Arrival' />
+          <Button label='Contact' />
+          <Button label='About Us' />
         </div>
       </div>
     </nav>
 
-    )
+  )
 }
 
-    export default navBar
+export default navBar
